@@ -20,6 +20,7 @@ class FileParser
 {
 public:
     static FileParser* Instance();
+    bool createFile(string newFile);
     bool openFile(string newFile);
     void writeToFile();
     bool closeFile();

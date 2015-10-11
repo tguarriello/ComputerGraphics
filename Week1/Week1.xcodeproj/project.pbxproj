@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E48FA5601BC85891004B436B /* CommandParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E48FA55E1BC85891004B436B /* CommandParser.cpp */; settings = {ASSET_TAGS = (); }; };
+		E48FA5631BC866F3004B436B /* UserFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E48FA5611BC866F3004B436B /* UserFactory.cpp */; settings = {ASSET_TAGS = (); }; };
 		E49E82351BC70577002CF4F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E49E82341BC70577002CF4F9 /* main.cpp */; };
 		E49E82411BC72075002CF4F9 /* FileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E49E823F1BC72075002CF4F9 /* FileParser.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E48FA55E1BC85891004B436B /* CommandParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandParser.cpp; sourceTree = "<group>"; };
+		E48FA55F1BC85891004B436B /* CommandParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommandParser.hpp; sourceTree = "<group>"; };
+		E48FA5611BC866F3004B436B /* UserFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserFactory.cpp; sourceTree = "<group>"; };
+		E48FA5621BC866F3004B436B /* UserFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UserFactory.hpp; sourceTree = "<group>"; };
 		E49E82311BC70577002CF4F9 /* Week1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E82341BC70577002CF4F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Week1/main.cpp; sourceTree = SOURCE_ROOT; };
 		E49E823F1BC72075002CF4F9 /* FileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileParser.cpp; sourceTree = "<group>"; };
@@ -62,7 +68,11 @@
 			children = (
 				E49E823F1BC72075002CF4F9 /* FileParser.cpp */,
 				E49E82401BC72075002CF4F9 /* FileParser.hpp */,
+				E48FA5611BC866F3004B436B /* UserFactory.cpp */,
+				E48FA5621BC866F3004B436B /* UserFactory.hpp */,
 				E49E82341BC70577002CF4F9 /* main.cpp */,
+				E48FA55E1BC85891004B436B /* CommandParser.cpp */,
+				E48FA55F1BC85891004B436B /* CommandParser.hpp */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -124,7 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49E82411BC72075002CF4F9 /* FileParser.cpp in Sources */,
+				E48FA5601BC85891004B436B /* CommandParser.cpp in Sources */,
 				E49E82351BC70577002CF4F9 /* main.cpp in Sources */,
+				E48FA5631BC866F3004B436B /* UserFactory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +253,7 @@
 				E49E823A1BC70577002CF4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
