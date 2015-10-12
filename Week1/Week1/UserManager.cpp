@@ -11,3 +11,18 @@ UserManager* UserManager::Instance()
 		um_Instance = new UserManager;
 	return um_Instance;
 }
+
+string* UserManager::getAllUsers()
+{
+
+	//return AllUsersList;
+}
+
+bool UserManager::CreateSuperUser()
+{
+	superuser = new UserBase;
+	superuser->setPermissions(P_SUPERUSER);
+	if (superuser)
+		return true;
+	return false;
+}
