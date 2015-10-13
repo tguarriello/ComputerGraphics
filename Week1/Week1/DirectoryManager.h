@@ -2,9 +2,9 @@
 class DirectoryManager
 {
 public:
-	DirectoryManager();
+	DirectoryManager() {};
 	//instantiate and/or return dm_Instance
-	static DirectoryManager* Instance() {};
+	static DirectoryManager* Instance();
 	
 private:
 	static DirectoryManager* dm_Instance;

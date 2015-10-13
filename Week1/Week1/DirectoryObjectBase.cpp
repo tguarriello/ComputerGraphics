@@ -5,4 +5,5 @@
 DirectoryObjectBase::DirectoryObjectBase(string newName)
 {
 	name = newName;
+	type = "";
 }

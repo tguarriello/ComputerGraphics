@@ -7,8 +7,8 @@ class DirectoryObjectBase
 {
 public:
 	DirectoryObjectBase(string newName);
-	virtual string getName();
-	virtual string getType();
+	virtual string getName() { return name; }
+	virtual string getType() { return type; }
 protected:
 	string name;
 	string type;
