@@ -5,5 +5,6 @@ class myFolder :
 {
 public:
 	myFolder(string newName);
-};
 
+	std::vector<UserBase*> rootDirectory;
+};
